@@ -1,0 +1,30 @@
+@import '../../../../assets/master';
+
+.intro-div {
+    margin-top: 55px;
+
+    p {
+        color: $charcoal;
+        padding: 5px;
+    }
+    
+    h5 {
+        color: $mid-purple;
+    }
+    
+    button {
+        background-color: $mid-purple;
+    }
+    
+
+}
+
+
+
+
+@media screen and (min-width: 768px ) {
+    p {
+        max-width:60%;
+        margin:0 auto;
+    }
+}
