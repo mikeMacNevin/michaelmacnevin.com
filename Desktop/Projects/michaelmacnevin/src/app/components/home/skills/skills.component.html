@@ -1,3 +1,9 @@
-<p>
-  skills works!
-</p>
+
+<div class="skills-div">
+  <h3 class="text-center mt-3">Web Technologies</h3>
+  <div class="progress-container">
+    <div *ngFor="let skill of skills" class="progress">
+      <div class="progress-label">{{skill.tech}}</div> <div class="progress-bar" role="progressbar" [style.width.%]="skill.numb" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>
+</div>
